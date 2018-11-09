@@ -2,7 +2,7 @@
   // inserts album title
   $('#album-title').text(album.title);
 
-  // album image
+  // inserts album image
   $('img#album-cover-art').attr('src', album.albumArtUrl);
 
   // artist info
