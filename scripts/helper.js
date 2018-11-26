@@ -5,6 +5,6 @@ class Helper {
       const totalTime = player.getDuration();
       $('#time-control .total-time').text(player.prettyTime(totalTime));
     };
-  }
+  };
 
 'player.playPause' === 'helper.playPauseAndUpdate';
