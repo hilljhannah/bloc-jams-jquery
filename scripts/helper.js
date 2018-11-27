@@ -5,5 +5,5 @@ class Helper {
       $('#time-control .total-time').text(player.prettyTime(totalTime));
     };
   };
-  
-const Helper = new helper();
+};
+const helper = new Helper();
