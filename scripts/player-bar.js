@@ -24,7 +24,7 @@
     })
 
     setInterval( () => {
-        if (player.playState !== 'playing') { return; }
+        if ( player.playState !== 'playing' ) { return; }
         const currentTime = player.getTime();
         const duration = player.getDuration();
         const percent = (currentTime / duration) * 100;
@@ -40,5 +40,6 @@
         if (previousSongIndex >= album.songs.length) { return; }
 
         const previousSong = album.songs[previousSongIndex];
-        helper.playPauseAndUpdate(previousSong)
+        helper.playPauseAndUpdate(previousSong);
     });
+}
