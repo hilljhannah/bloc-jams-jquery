@@ -1,4 +1,4 @@
-class player {
+class Player {
   constructor () {
     this.currentlyPlaying = album.songs[0];
     this.playState = 'stopped';
