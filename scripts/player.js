@@ -52,7 +52,7 @@ class Player {
     let seconds = Number.parseFloat(timeInSeconds);
     let wholeSeconds = Math.floor(seconds);
     let minutes = Math.floor(wholeSeconds / 60);
-    //let output = Math['seconds' + 'wholeSeconds' + 'minutes'];
+    let output = Math['seconds' + 'wholeSeconds' + 'minutes'];
     return output;
   }
 }
