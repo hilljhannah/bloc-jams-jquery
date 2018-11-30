@@ -1,4 +1,6 @@
 class Helper {
+
+
   playPauseAndUpdate(song) {  {
       player.playPause(song);
       const totalTime = player.prettyTime(player.currentlyPlaying.duration);
@@ -6,4 +8,6 @@ class Helper {
     };
   };
 };
+
+
 const helper = new Helper();
